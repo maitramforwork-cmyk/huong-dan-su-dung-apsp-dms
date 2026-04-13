@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đào tạo Kỹ năng Sử dụng Phần mềm DMS - AP Saigon Petro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <!-- Using the APSP Logo -->
+            <img src="../LogoSP-new2024-FINAL%20(1.1)_Bo2LogoAPSP-2024.png" alt="AP Saigon Petro Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#overview">Tổng quan</a></li>
+                <li><a href="#install">Cài đặt</a></li>
+                <li><a href="#timekeeping">Chấm công</a></li>
+                <li><a href="#new-customer">Tạo KH mới</a></li>
+                <li><a href="#visit">Viếng thăm</a></li>
+                <li><a href="#order-search">Tra cứu</a></li>
+                <li><a href="#rules">Quy định</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Khởi đầu thông minh với DMS Mobiwork</h1>
+        <p>Phần mềm Quản lý Hệ thống Phân phối giúp đội ngũ bán hàng AP Saigon Petro tối ưu công việc, tăng cường doanh số mạnh mẽ mỗi ngày.</p>
+    </div>
+
+    <div class="container">
+        
+        <!-- P1: TỔNG QUAN -->
+        <section id="overview" class="glass-panel">
+            <h2>Phần 1: Tổng quan về Phần mềm DMS</h2>
+            <p><strong>Công dụng:</strong> Giúp nhân viên bán hàng giảm thiểu tối đa công việc thủ công, tiết kiệm thời gian làm việc tại điểm bán, và tối ưu doanh số.</p>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <i class="fa-solid fa-location-dot card-icon" style="color: var(--primary-blue);"></i>
+                    <h3>Chấm công</h3>
+                    <p>Chấm công đi kèm vị trí tọa độ địa lý chính xác.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-store card-icon" style="color: var(--primary-yellow);"></i>
+                    <h3>Thêm điểm bán</h3>
+                    <p>Khởi tạo và quản lý khách hàng mới dễ dàng.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-cart-shopping card-icon" style="color: #10B981;"></i>
+                    <h3>Đặt đơn hàng</h3>
+                    <p>Lên đơn hàng nhanh chóng tại mọi điểm bán.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-route card-icon" style="color: #6366F1;"></i>
+                    <h3>Tuyến bán hàng</h3>
+                    <p>Thiết lập và theo dõi tuyến bán hàng hợp lý.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-camera-retro card-icon" style="color: var(--accent-red);"></i>
+                    <h3>Viếng thăm điểm bán</h3>
+                    <p>Chụp ảnh, kiểm tồn và đặt đơn hàng trực tiếp.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-chart-pie card-icon" style="color: #F59E0B;"></i>
+                    <h3>Báo cáo</h3>
+                    <p>Xem báo cáo công việc theo thời gian thực.</p>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 3rem;">Trách nhiệm các bộ phận</h3>
+            <div class="roles">
+                <div class="role-box">
+                    <h4>Nhân viên Bán hàng (NVBH)</h4>
+                    <ul>
+                        <li>Sử dụng DMS trong suốt quá trình làm việc.</li>
+                        <li>Đăng nhập và thao tác đúng giờ quy định.</li>
+                        <li>Viếng thăm đúng tuyến định sẵn hàng ngày.</li>
+                        <li>Khởi tạo đủ và đúng thông tin Khách hàng mới.</li>
+                        <li>Chuẩn bị điện thoại 3G/4G, có GPS mỗi ngày.</li>
+                    </ul>
+                </div>
+                <div class="role-box">
+                    <h4>Trưởng nhóm Bán hàng (TNBH)</h4>
+                    <ul>
+                        <li>Thiết lập tuyến bán hàng, giao mục tiêu.</li>
+                        <li>Duyệt KH mới và duyệt đơn hàng trong 48h.</li>
+                        <li>Kiểm tra tình hình dùng DMS, xử lý data trùng.</li>
+                    </ul>
+                </div>
+                <div class="role-box">
+                    <h4>Trưởng bộ phận (TBP)</h4>
+                    <ul>
+                        <li>Kiểm tra công việc NVBH, TNBH.</li>
+                        <li>Thay thế TNBH nếu khu vực thiếu nhân sự.</li>
+                        <li>Báo cáo hoạt động cho TGĐ từ dữ liệu DMS.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- P2: CÀI ĐẶT & ĐĂNG NHẬP -->
+        <section id="install" class="glass-panel">
+            <h2>Phần 2: Cài đặt & Đăng nhập (Mobiwork DMS)</h2>
+            
+            <div class="tabs-container">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-target="android-tab"><i class="fa-brands fa-android"></i> Android</button>
+                    <button class="tab-btn" data-target="ios-tab"><i class="fa-brands fa-apple"></i> iOS (iPhone)</button>
+                </div>
+
+                <div class="tab-content active" id="android-tab">
+                    <ul class="install-steps">
+                        <li><strong>Bước 1:</strong> Truy cập <code>dms.mobiwork.vn</code> trên trình duyệt điện thoại.</li>
+                        <li><strong>Bước 2:</strong> Chọn "Tải từ Google Play" hoặc tải bản APK.<br>
+                            <img src="./assets/DMS_Training/Screenshot%202026-04-03%20at%2016.24.27.png" alt="Hướng dẫn Bước 2 Android" style="height: 450px; border-radius: 8px; margin-top: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                        </li>
+                        <li><strong>Bước 3:</strong> Tìm đến Trình quản lý tệp / Lưu trữ file.<br>
+                            <img src="./assets/DMS_Training/Screenshot%202026-04-03%20at%2016.24.46.png" alt="Hướng dẫn Bước 3 Android" style="height: 450px; border-radius: 8px; margin-top: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                        </li>
+                        <li><strong>Bước 4:</strong> Vào phần thư mục Download/APK.<br>
+                            <img src="./assets/DMS_Training/install_android_step4_alt.png" alt="Hướng dẫn Bước 4 Android" style="height: 450px; border-radius: 8px; margin-top: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                        </li>
+                        <li><strong>Bước 5:</strong> Mở file <strong>MBW_DMS.apk</strong> và chọn Cài đặt.<br>
+                            <img src="./assets/DMS_Training/install_android_step5.png" alt="Hướng dẫn Bước 5 Android" style="height: 450px; border-radius: 8px; margin-top: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-content" id="ios-tab">
+                    <ul class="install-steps">
+                        <li><strong>Bước 1:</strong> Vào trình duyệt Safari.</li>
+                        <li><strong>Bước 2:</strong> Truy cập <code>dms.mobiwork.vn</code>.</li>
+                        <li><strong>Bước 3:</strong> Bấm "Tải từ App Store".</li>
+                        <li><strong>Bước 4:</strong> Bấm Cài đặt.<br>
+                            <img src="./assets/DMS_Training/Screenshot%202026-04-03%20at%2016.25.04.png" alt="Hướng dẫn Bước 4 iOS" style="height: 450px; border-radius: 8px; margin-top: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                        </li>
+                        <li><strong>Bước 5:</strong> Xác minh ứng dụng tin cậy:<br>
+                            <em>Vào Cài đặt -> Cài đặt chung -> Quản lý thiết bị -> Chọn "MOBIWORK VIETNAM TECHNOLOGY..." -> Nhấn "Tin cậy".</em><br>
+                            <img src="./assets/DMS_Training/Screenshot%202026-04-03%20at%2016.25.14.png" alt="Hướng dẫn Bước 5 iOS P1" style="height: 450px; border-radius: 8px; margin-top: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin-right: 10px;">
+                            <img src="./assets/DMS_Training/Screenshot%202026-04-03%20at%2016.25.22.png" alt="Hướng dẫn Bước 5 iOS P2" style="height: 450px; border-radius: 8px; margin-top: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="alert-box warning">
+                <i class="fa-solid fa-circle-exclamation alert-icon"></i>
+                <div class="alert-text">
+                    <strong>LƯU Ý QUAN TRỌNG KHI ĐĂNG NHẬP & SỬ DỤNG:</strong>
+                    Tài khoản và Mật khẩu sẽ do Quản lý trực tiếp cung cấp.<br>
+                    Luôn bật GPS, bật 3G/4G/Wifi ổn định. Sau mỗi thao tác công việc làm trên điện thoại, hãy bấm nút "Đồng bộ dữ liệu" để gửi lên hệ thống và hạn chế mất số liệu.
+                </div>
+            </div>
+        </section>
+
+        <!-- P3: CHẤM CÔNG -->
+        <section id="timekeeping" class="glass-panel">
+            <h2>Phần 3: Chấm công trên DMS</h2>
+            <div class="timekeeping-wrapper">
+                <div class="timekeeping-info">
+                    <p>Thực hiện chấm công từ Thứ 2 đến Thứ 7 hàng tuần.</p>
+                    <ul class="install-steps" style="margin-top: 1rem;">
+                        <li><strong>Check-in (Đầu ngày):</strong> Tại Trang chủ > "Chấm công" > Bấm "BẮT ĐẦU".<br><em>Thời gian: 8:00</em><br>
+                            <img src="./assets/DMS_Training/timekeep_overview.png" alt="Timekeep Overview" style="max-width: 200px; border-radius: 8px; margin-top: 10px; margin-right: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                            <img src="./assets/DMS_Training/checkin_screen.png" alt="Checkin Screen" style="max-width: 200px; border-radius: 8px; margin-top: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                        </li>
+                        <li><strong>Check-out (Cuối ngày):</strong> Tại màn hình Chấm công > Bấm "KẾT THÚC".<br><em>Thời gian: 17:00</em><br>
+                            <img src="./assets/DMS_Training/images/checkout_screen.png" alt="Checkout Screen" style="max-width: 200px; border-radius: 8px; margin-top: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                        </li>
+                    </ul>
+                    <div class="alert-box" style="margin-top: 1.5rem; background: #EEF2FF; border-left-color: #4F46E5;">
+                        <i class="fa-solid fa-location-crosshairs alert-icon" style="color: #4F46E5;"></i>
+                        <div class="alert-text">
+                            <strong>Định vị tự động:</strong>
+                            Hệ thống sẽ ghi nhận chấm công đi kèm với vị trí/tọa độ làm việc thực tế tại lúc đó. Luôn bật GPS, bật 3G/4G/Wifi ổn định. Luôn nhớ bấm nút Đồng bộ sau khi check-in, check-out xong.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- P4: TẠO KHÁCH HÀNG MỚI -->
+        <section id="new-customer" class="glass-panel">
+            <h2>Phần 4: Tạo Khách Hàng Mới</h2>
+            <p>Quy trình tạo tiết kiệm thời gian, tăng mật độ tiếp cận. Vui lòng xem Video thao tác thực tế và theo dõi Checklist bên dưới.</p>
+
+            <div class="media-container">
+                <!-- Video from files -->
+                <video controls width="500">
+                    <source src="./assets/videos/thêm mới KH mobile 1.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ tag video.
+                </video>
+            </div>
+
+            <div class="checklist" id="newCustomerChecklist">
+                <div class="check-item" style="align-items: flex-start;">
+                    <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                    <div>
+                        <span><strong>Bước 1:</strong> Tại Viếng thăm -> Bấm biểu tượng "Cài đặt" (Góc phải dưới) -> Chọn "Thêm khách hàng".</span><br>
+                        <img src="./assets/DMS_Training/customer_step1.png" alt="Bước 1" style="max-height: 250px; border-radius: 8px; margin-top: 10px;">
+                    </div>
+                </div>
+                <div class="check-item" style="align-items: flex-start;">
+                    <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                    <div>
+                        <span><strong>Bước 2:</strong> Điền đầy đủ thông tin bắt buộc (Tên cty, loại khách, người liên hệ, sđt... Mã KH app tự nhảy).</span>
+                    </div>
+                </div>
+                <div class="check-item" style="align-items: flex-start;">
+                    <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                    <div>
+                        <span><strong>Bước 3:</strong> Chụp ảnh (Phải chụp chính diện cửa hàng, thấy rõ tên, bảng hiệu, địa chỉ).</span><br>
+                        <img src="./assets/DMS_Training/customer_step2.png" alt="Bước 3" style="max-height: 250px; border-radius: 8px; margin-top: 10px;">
+                    </div>
+                </div>
+                <div class="check-item" style="align-items: flex-start;">
+                    <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                    <div>
+                        <span><strong>Bước 4:</strong> Chuyển sang Tab "Vị trí", chọn "Lấy địa chỉ chính xác" (Sửa lại thủ công nếu sai phường/xã/quận) rồi bấm "Lưu vị trí".</span><br>
+                        <img src="./assets/DMS_Training/customer_step3.png" alt="Bước 4" style="max-height: 250px; border-radius: 8px; margin-top: 10px;">
+                    </div>
+                </div>
+                <div class="check-item" style="align-items: flex-start;">
+                    <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                    <div>
+                        <span><strong>Bước 5:</strong> Chuyển sang Tab "Tuyến" để gán tuyến tương ứng và chọn LƯU.</span><br>
+                        <img src="./assets/DMS_Training/customer_step4.png" alt="Bước 5" style="max-height: 250px; border-radius: 8px; margin-top: 10px;">
+                    </div>
+                </div>
+                <div class="check-item" style="align-items: flex-start;">
+                    <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+                    <div>
+                        <span><strong>Bước 6:</strong> Đừng quên Bấm Nút "Đồng bộ dữ liệu" để đẩy hồ sơ KH mới lên hệ thống chờ duyệt.</span><br>
+                        <img src="./assets/DMS_Training/customer_step5.png" alt="Bước 6" style="max-height: 250px; border-radius: 8px; margin-top: 10px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="alert-box">
+                <i class="fa-solid fa-triangle-exclamation alert-icon"></i>
+                <div class="alert-text">
+                    <strong>Ba thông tin bổ sung cực kỳ quan trọng bắt buộc điền:</strong>
+                    1. Mô tả nhu cầu khách hàng (mua dùng hay bán lại)<br>
+                    2. Ước tính sản lượng lít tất cả dầu nhớt trong năm<br>
+                    3. Ước tính sản lượng lít dầu nhớt APSP trong năm, và nguồn lấy hàng (NPP hay công ty trực tiếp).
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- P5: VIẾNG THĂM KHÁCH HÀNG -->
+        <section id="visit" class="glass-panel">
+            <h2>Phần 5: Viếng thăm khách hàng & Đặt hàng</h2>
+            
+            <div class="media-container" style="margin-bottom: 2rem;">
+                <video controls width="500">
+                    <source src="./assets/videos/Video viếng thăm KH và xem đơn hàng đã đặt hàng trong viếng thăm 1.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ tag video.
+                </video>
+            </div>
+
+            <p style="text-align: center; color: var(--text-muted);">Các bước thao tác viếng thăm nằm bên dưới. Bạn có thể xem hình ảnh đính kèm theo từng bước.</p>
+            
+            <div class="vertical-steps">
+                <div class="step-card">
+                    <h4>1. Check-in điểm bán (Xác nhận tọa độ)</h4>
+                    <p>Vào menu <strong>Viếng thăm</strong>. Sử dụng "Phễu" (Bộ lọc) để lọc khách hàng trong tuyến, hoặc nút "Công cụ" sắp xếp KH theo khoảng cách để tối ưu di chuyển.<br> 
+                    Bấm nút <strong>Checkin</strong> tại KH muốn viếng thăm để bắt đầu lấy tọa độ làm việc.</p>
+                    <div style="margin-top: 15px; display: flex; flex-wrap: wrap; gap: 10px;">
+                        <img src="./assets/DMS_Training/visit_ui_guide.png" alt="UI Guide" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/visit_ui_guide2.png" alt="UI Guide 2" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/visit_tools.png" alt="Tools Guide" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/visit_filter_guide.png" alt="Filter Guide" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/visit_checkin_flow.png" alt="Checkin Flow" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/visit_coordinates.png" alt="Coordinates" style="height: 400px; border-radius: 8px;">
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <h4>2. Xử lý Trạng thái Khách hàng (Mở cửa/Đóng cửa)</h4>
+                    <p><strong>Khách đóng cửa:</strong> Chuyển sang chế độ "Đóng cửa" trên công tắc -> Vào Tab "Hình ảnh" chụp hình cửa hàng đóng cửa làm bằng chứng -> Bấm Checkout.<br>
+                    <strong>Khách mở cửa:</strong> Giữ nguyên trạng thái mặc định. Tiến hành các bước làm việc bên trong cửa hàng.</p>
+                    <div style="margin-top: 15px;">
+                        <img src="./assets/DMS_Training/images/visit_closed_ui.png" alt="Closed UI" style="height: 400px; border-radius: 8px;">
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <h4>3. Kiểm Tồn, Chụp Ảnh Trưng Bày & Ghi Chú</h4>
+                    <p><strong>Kiểm tồn:</strong> Bấm nút Thêm sản phẩm -> Điền số lượng đang tồn -> Lưu lại.<br>
+                    <strong>Chụp ảnh:</strong> Chuyển tab Hình ảnh -> Bật Camera chụp ảnh quầy/kệ thực tế -> Lưu.<br>
+                    <strong>Ghi chú:</strong> Bấm biểu tượng "Cây bút" -> Thêm mới để gõ text những vấn đề, khiếu nại của khách để báo về cho Công ty.</p>
+                    <div style="margin-top: 15px; display: flex; flex-wrap: wrap; gap: 10px;">
+                        <img src="./assets/DMS_Training/images/visit_stock.png" alt="Stock 1" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/images/visit_stock2.png" alt="Stock 2" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/images/visit_stock3.png" alt="Stock 3" style="height: 400px; border-radius: 8px;">
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <h4>4. Lên Đơn Hàng & Cập Nhật Khuyến Mãi</h4>
+                    <p>Bấm <strong>"Đặt hàng"</strong> (dưới đáy màn hình) -> Điền & kiểm tra thông tin Đơn -> Thêm sản phẩm APSP -> Điền số lượng.<br>
+                    Sau đó, bấm nút <strong>"Khuyến mãi"</strong> -> Chọn sản phẩm xuất kèm Khuyến mãi -> Cập nhật để áp đơn.</p>
+                    <div style="margin-top: 15px; display: flex; flex-wrap: wrap; gap: 10px;">
+                        <img src="./assets/DMS_Training/images/visit_order.png" alt="Order 1" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/images/visit_order2.png" alt="Order 2" style="height: 400px; border-radius: 8px;">
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <h4>5. Check-out và Đồng bộ dữ liệu</h4>
+                    <p>Sau khi hoàn tất mọi việc, bấm <strong>Check-out</strong> để kết thúc quy trình viếng thăm ở một điểm bán.<br>
+                    <strong>RẤT QUAN TRỌNG:</strong> Việc cuối cùng là ấn biểu tượng <strong>"Đồng bộ dữ liệu"</strong> đẩy ngay đơn hàng lên Server để bộ phận Admin Xử lý đơn trong tối đa 48h.</p>
+                    <div style="margin-top: 15px;">
+                        <img src="./assets/DMS_Training/images/sync_visit.png" alt="Sync Visit" style="height: 400px; border-radius: 8px;">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- P6: TRA CỨU ĐƠN HÀNG -->
+        <section id="order-search" class="glass-panel">
+            <h2>Phần 6: Tra cứu đơn hàng trên DMS</h2>
+            <p>Thay vì xem lại sổ sách, chúng ta có thể chủ động kiểm tra lại tổng số đơn đã đặt trên ứng dụng, theo dõi chi tiết mặt hàng, số lượng và trạng thái xử lý đơn hàng.</p>
+            <div class="vertical-steps">
+                <div class="step-card">
+                    <h4>Các bước tra cứu đơn hàng</h4>
+                    <p>Vào menu <strong>Đơn hàng</strong> -> Chọn đơn hàng cần xem -> Màn hình sẽ hiển thị <strong>Chi tiết đơn hàng</strong>.</p>
+                    <div style="margin-top: 15px; display: flex; flex-wrap: wrap; gap: 10px;">
+                        <img src="./assets/DMS_Training/order_search/page_39_img_3.png" alt="Ảnh trang 39" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_39_img_4.png" alt="Ảnh trang 39" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_39_img_5.png" alt="Ảnh trang 39" style="height: 400px; border-radius: 8px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- P7: BÁO CÁO & KPI -->
+        <section id="reports-kpi" class="glass-panel">
+            <h2>Phần 7: Báo cáo doanh số & Chỉ tiêu KPIs</h2>
+            <div class="alert-box warning">
+                <i class="fa-solid fa-circle-exclamation alert-icon"></i>
+                <div class="alert-text">
+                    <strong>QUY ĐỊNH ĐÁNH GIÁ (Phòng Nhân Sự):</strong><br>
+                    Việc đánh giá nhân viên và chi trả thưởng chỉ dựa vào dữ liệu ghi nhận trên phần mềm DMS Mobiwork. Các trường hợp lệch dữ liệu phải được cấp trên phê duyệt.
+                </div>
+            </div>
+            <div class="vertical-steps">
+                <div class="step-card">
+                    <h4>1. Tra cứu kết quả đặt hàng</h4>
+                    <p>Giúp tra cứu kết quả báo cáo kinh doanh ngay trên điện thoại: Theo dõi khách hàng, chi tiết SKU, sản lượng thực đặt, tổng tiền hàng. Có thể lọc báo cáo theo "Sản phẩm" hoặc "Khách hàng".</p>
+                    <div style="margin-top: 15px; display: flex; flex-wrap: wrap; gap: 10px;">
+                        <img src="./assets/DMS_Training/order_search/page_42_img_5.png" alt="Ảnh trang 42" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_42_img_6.png" alt="Ảnh trang 42" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_43_img_5.png" alt="Ảnh trang 43" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_43_img_6.png" alt="Ảnh trang 43" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_43_img_7.png" alt="Ảnh trang 43" style="height: 400px; border-radius: 8px;">
+                    </div>
+                </div>
+                <div class="step-card">
+                    <h4>2. Tra cứu chỉ tiêu KPIs</h4>
+                    <p>Tiến độ cập nhật liên tục với biểu đồ so sánh rõ ràng. Vào Báo cáo -> <strong>Chỉ tiêu KPI</strong>.</p>
+                    <div style="margin-top: 15px; display: flex; flex-wrap: wrap; gap: 10px;">
+                        <img src="./assets/DMS_Training/order_search/page_45_img_3.png" alt="Ảnh trang 45" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_45_img_4.png" alt="Ảnh trang 45" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_46_img_2.png" alt="Ảnh trang 46" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_46_img_3.png" alt="Ảnh trang 46" style="height: 400px; border-radius: 8px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- P8: ĐI TUYẾN & ĐIỂM BÁN -->
+        <section id="route-pos" class="glass-panel">
+            <h2>Phần 8: Tra cứu hoạt động đi tuyến & Báo cáo điểm bán</h2>
+            <div class="vertical-steps">
+                <div class="step-card">
+                    <h4>1. Tra cứu hiệu quả đi tuyến & Viếng thăm</h4>
+                    <p>Theo dõi tổng khách hàng cần viếng thăm, đã viếng thăm, chưa viếng thăm và hiệu quả bán hàng.</p>
+                    <div style="margin-top: 15px; display: flex; flex-wrap: wrap; gap: 10px;">
+                        <img src="./assets/DMS_Training/order_search/page_49_img_3.png" alt="Ảnh trang 49" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_49_img_4.png" alt="Ảnh trang 49" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_49_img_5.png" alt="Ảnh trang 49" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_51_img_4.png" alt="Ảnh trang 51" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_51_img_5.png" alt="Ảnh trang 51" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_51_img_6.png" alt="Ảnh trang 51" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_51_img_7.png" alt="Ảnh trang 51" style="height: 400px; border-radius: 8px;">
+                    </div>
+                </div>
+                <div class="step-card">
+                    <h4>2. Tra cứu Di chuyển & Chấm công</h4>
+                    <p>Vào mục Báo cáo -> Xem <strong>Nhật ký di chuyển</strong> hoặc <strong>Nhật ký chấm công</strong>.</p>
+                    <div style="margin-top: 15px; display: flex; flex-wrap: wrap; gap: 10px;">
+                        <img src="./assets/DMS_Training/order_search/page_53_img_3.jpeg" alt="Nhật ký trang 53" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_53_img_4.jpeg" alt="Nhật ký trang 53" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_55_img_3.png" alt="Công trang 55" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_55_img_4.png" alt="Công trang 55" style="height: 400px; border-radius: 8px;">
+                    </div>
+                </div>
+                <div class="step-card">
+                    <h4>3. Tra cứu báo cáo điểm bán</h4>
+                    <p>Hỗ trợ tra cứu lịch sử mua hàng, chi tiết đơn hàng, sản lượng SKU, lịch sử tồn kho tại điểm bán để nhắc KH nhập hàng hợp lý.</p>
+                    <div style="margin-top: 15px; display: flex; flex-wrap: wrap; gap: 10px;">
+                        <img src="./assets/DMS_Training/order_search/page_57_img_2.png" alt="Báo cáo trang 57" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_57_img_3.png" alt="Báo cáo trang 57" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_57_img_4.png" alt="Báo cáo trang 57" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_57_img_5.png" alt="Báo cáo trang 57" style="height: 400px; border-radius: 8px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- P9: TÍNH NĂNG KHÁC -->
+        <section id="other-features" class="glass-panel">
+            <h2>Phần 9: Các tính năng khác & Xử lý sự cố</h2>
+            <div class="vertical-steps">
+                <div class="step-card">
+                    <h4>1. Các tính năng cập nhật thông tin</h4>
+                    <p>Sửa thông tin khách hàng, tra cứu sản phẩm nhanh, và đổi mật khẩu an toàn theo định kỳ.</p>
+                    <div style="margin-top: 15px; display: flex; flex-wrap: wrap; gap: 10px;">
+                        <img src="./assets/DMS_Training/order_search/page_59_img_3.jpeg" alt="Sửa KH" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_59_img_4.png" alt="Sửa KH" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_60_img_3.jpeg" alt="Tra sản phẩm" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_60_img_4.jpeg" alt="Tra sản phẩm" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_61_img_2.png" alt="Đổi MK" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_61_img_3.jpeg" alt="Đổi MK" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_61_img_4.png" alt="Đổi MK" style="height: 400px; border-radius: 8px;">
+                    </div>
+                </div>
+                <div class="step-card">
+                    <h4>2. Xử lý Lỗi thường gặp</h4>
+                    <p><strong>Lỗi sai thời gian:</strong> Vào Cài đặt điện thoại -> Bật Ngày giờ múi giờ tự động.<br>
+                    <strong>Lỗi không đồng bộ:</strong> Xóa bớt ứng dụng đảm bảo trống bộ nhớ > 1GB, kiểm tra lại 3G/4G, Tắt chế độ VPN (mạng ảo) nếu có.<br>
+                    <strong>Lỗi bấm checkin không phản hồi:</strong> Vuốt tắt ứng dụng DMS, vào ứng dụng Bản đồ check vị trí GPS trên máy cho chuẩn lại, sau đó mở lại DMS.</p>
+                    <div style="margin-top: 15px; display: flex; flex-wrap: wrap; gap: 10px;">
+                        <img src="./assets/DMS_Training/order_search/page_64_img_2.jpeg" alt="Sai thời gian" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_64_img_3.jpeg" alt="Sai thời gian" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_66_img_2.jpeg" alt="Không phản hồi" style="height: 400px; border-radius: 8px;">
+                        <img src="./assets/DMS_Training/order_search/page_66_img_3.jpeg" alt="Không phản hồi" style="height: 400px; border-radius: 8px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- P10: QUY ĐỊNH CHUNG -->
+        <section id="rules" class="glass-panel">
+            <h2>Phần 10: Quy định & Lưu ý khi làm việc (Bắt buộc)</h2>
+            <div class="alert-box error" style="margin-top: 1.5rem; background: #FEF2F2; border-left-color: #EF4444; color: #7F1D1D;">
+                <i class="fa-solid fa-triangle-exclamation alert-icon" style="color: #EF4444;"></i>
+                <div class="alert-text">
+                    <strong>NHỮNG ĐIỀU KHÔNG ĐƯỢC LÀM:</strong><br>
+                    1. Không đăng xuất phần mềm trong giờ làm việc (08:00 - 17:00).<br>
+                    2. Không tắt GPS trong giờ làm việc.<br>
+                    3. Không gỡ, xóa ứng dụng DMS khi CHƯA BẤM ĐỒNG BỘ DỮ LIỆU.
+                </div>
+            </div>
+            <div class="alert-box" style="margin-top: 1.5rem; background: #ECFEFF; border-left-color: #06B6D4; color: #164E63;">
+                <i class="fa-solid fa-mobile-screen alert-icon" style="color: #06B6D4;"></i>
+                <div class="alert-text">
+                    <strong>YÊU CẦU THIẾT BỊ & XỬ LÝ SỰ CỐ:</strong><br>
+                    - Tất cả Nhân viên BH phải đảm bảo thiết bị Smartphone tiêu chuẩn (Dòng iPhone 8 trở lên, hoặc Samsung S8 trở lên).<br>
+                    - Mọi phát sinh, sự cố về ứng dụng phải báo ngay cho cấp trên quản lý trực tiếp chậm nhất 24 giờ. Vượt quá 24h sự cố sẽ không được ghi nhận giải quyết.
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Phát triển bởi <a href="#">AP Saigon Petro L&D Team</a> | Dành cho Nội bộ Phát triển Năng lực</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
